@@ -1,3 +1,4 @@
+$\newcommand{\r}{\mathbb{R}}$ $\newcommand{\eps}{\varepsilon}$ $\newcommand\seq[1][a]{\{#1_n\}}$ $\newcommand\subseq[1][a]{\{#1_{n_k}\}}$
 # Axioms of the reals
 
 *Pages 9-16 in the book.*
@@ -61,10 +62,3 @@ Now that $\seq$ is bounded, we can **use the Bolzano-Weierstrass theorem** to ge
 # Debrief
 
 Note that all we did here is a consequence of the least upper bound axiom. As mentioned before, we proved *LUB $\implies$ MCP $\implies$ Bolzano-Weierstrass $\implies$ properties of Cauchy sequences*. Again, this shows the importance of this axiom, and reminds us that none of these properties (necessarily) hold in the rationals.
-
-# Macros
-
-$\newcommand{\r}{\mathbb{R}}$
-$\newcommand{\eps}{\varepsilon}$
-$\newcommand\seq[1][a]{\{#1_n\}}$
-$\newcommand\subseq[1][a]{\{#1_{n_k}\}}$
